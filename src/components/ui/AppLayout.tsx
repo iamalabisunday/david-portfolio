@@ -3,9 +3,11 @@ import SideBar from "./sidebar";
 
 export default function AppLayout() {
   return (
-    <div>
-      <SideBar />
-      <main>
+    <div className="flex px-[2rem] h-screen gap-8">
+      <div className="w-[15.625rem] ">
+        <SideBar />
+      </div>
+      <main className="flex-1 py-[2rem]">
         <Outlet />
       </main>
     </div>
