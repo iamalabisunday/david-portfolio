@@ -1,7 +1,17 @@
 export default function ChildrenPage() {
   return (
     <div>
-      <h1>Children Page</h1>
+      <Sidebar />
+    </div>
+  );
+}
+
+function Sidebar() {
+  return (
+    <div>
+      <div>
+        <p>I love you</p>
+      </div>
     </div>
   );
 }
