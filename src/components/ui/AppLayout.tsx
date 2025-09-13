@@ -7,7 +7,7 @@ export default function AppLayout() {
       <div className="w-[15.625rem] ">
         <SideBar />
       </div>
-      <main className="flex-1 py-[2rem]">
+      <main className="flex-1 py-[2rem] overflow-y-scroll">
         <Outlet />
       </main>
     </div>
