@@ -2,11 +2,11 @@ import { childrenBooksData } from "../data/childrenbooksdata";
 
 export default function ChildrenPage() {
   return (
-    <div className="p-6">
+    <div>
       {/* columnGap is set inline for predictable spacing between columns */}
-      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4">
+      <div className="columns-1 md:columns-3">
         {childrenBooksData.map((book) => (
-          <div key={book.id} className="mb-4">
+          <div key={book.id} className="mb-6">
             <img
               src={book.image}
               alt="Children's book"

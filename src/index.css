@@ -9,4 +9,10 @@
   --color-primary: #5e2ea6;
   --color-border: #ebebeb;
   --color-priGray: #808080;
+  --color-active: #151515;
+}
+
+.active {
+  color: var(--color-active);
+  font-weight: 550;
 }

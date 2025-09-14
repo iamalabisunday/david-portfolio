@@ -37,11 +37,11 @@ export default function SideBar() {
         {/* navigation social media section  */}
         <div className="w-full flex gap-[0.25rem]">
           {/* Linkin Page */}
-          <NavLink to="">
+          <NavLink to="https://www.linkedin.com/in/david-okon-66926a154">
             <img src={LinkIn} alt="linkIn logo" className="w-[2rem] h-[2rem]" />
           </NavLink>
           {/* Facebook Page */}
-          <NavLink to="">
+          <NavLink to="https://web.facebook.com/okon.davidedikan">
             <img
               src={Facebook}
               alt="facebook logo"
@@ -49,11 +49,11 @@ export default function SideBar() {
             />
           </NavLink>
           {/* X Page */}
-          <NavLink to="">
+          <NavLink to="https://x.com/avidartdesign">
             <img src={X} alt="twitter logo" className="w-[2rem] h-[2rem]" />
           </NavLink>
           {/* Instagram Page */}
-          <NavLink to="">
+          <NavLink to="https://www.instagram.com/davidokonart?fbclid=IwY2xjawMyjjlleHRuA2FlbQIxMABicmlkETEzR2Q5RjFWR2tmSHcxM1ZEAR7h_vyUFzU5Cb3IKAgUeox5-S85-xQYIrKcqVOT7os6G6qLVSD7lMbHUSwKQQ_aem_zPFLmatI40xbG1cSR0PO6g">
             <img
               src={Instagram}
               alt="instagram logo"
@@ -61,7 +61,7 @@ export default function SideBar() {
             />
           </NavLink>
           {/* Youtube page */}
-          <NavLink to="">
+          <NavLink to="https://www.youtube.com/@davidokon">
             <img
               src={Youtube}
               alt="youtube logo"
