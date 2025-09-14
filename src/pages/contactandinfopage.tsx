@@ -12,7 +12,7 @@ export default function ContactAndInfoPage() {
         />
       </div>
       {/* Profile text Section */}
-      <div className="w-full h-auto flex flex-col gap-4">
+      <div className="w-full h-auto flex flex-col gap-4 text-priGray">
         <div className="flex flex-col gap-4 text-[1rem] font-medium leading-[2rem]">
           <span className="text-primary font-bold text-xl text-[2rem]">
             About Me
