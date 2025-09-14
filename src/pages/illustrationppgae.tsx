@@ -2,9 +2,9 @@ import { illustrationData } from "../data/illustrationsdata.tsx";
 
 export default function IllustrationPage() {
   return (
-    <div className="columns-1 md:columns-3">
+    <div className="columns-1 lg:columns-3">
       {illustrationData.map((illustration) => (
-        <div key={illustration.id}>
+        <div key={illustration.id} className="mb-5">
           <img
             src={illustration.image}
             alt="illustration"

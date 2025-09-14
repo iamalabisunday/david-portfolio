@@ -4,9 +4,9 @@ export default function ChildrenPage() {
   return (
     <div>
       {/* columnGap is set inline for predictable spacing between columns */}
-      <div className="columns-1 md:columns-3">
+      <div className="columns-1 lg:columns-3">
         {childrenBooksData.map((book) => (
-          <div key={book.id} className="mb-6">
+          <div key={book.id} className="mb-5">
             <img
               src={book.image}
               alt="Children's book"
