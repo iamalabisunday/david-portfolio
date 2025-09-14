@@ -1,8 +1,8 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+@import "tailwindcss";
 
-* {
-  font-family: "Dosis", sans-serif;
+body {
+  font-family: var(--font-dosis);
 }
 
 @theme {
@@ -10,6 +10,7 @@
   --color-border: #ebebeb;
   --color-priGray: #808080;
   --color-active: #151515;
+  --font-dosis: "Dosis", sans-serif;
 }
 
 .active {
