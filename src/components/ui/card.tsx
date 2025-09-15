@@ -1,4 +1,4 @@
-// import { Navlink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 type CardProps = {
   img: string;
@@ -6,6 +6,7 @@ type CardProps = {
   title: string;
   description: string;
   buttonText: string;
+  buttonLink: string;
 };
 
 export default function Card({
@@ -14,6 +15,7 @@ export default function Card({
   title,
   description,
   buttonText,
+  buttonLink,
 }: CardProps) {
   return (
     <div className="lg:max-w-[22rem] w-full h-auto border-1 border-border">
@@ -31,8 +33,10 @@ export default function Card({
         <p className="text-[1.5rem]">{title}</p>
         <p className="text-[1.25rem] text-priGray">{description}</p>
         <div className="w-full flex justify-end hover:text-priGray cursor-pointer transition-all duration-300">
-          <p>{buttonText}</p>
-          <span className="material-symbols-outlined">chevron_right</span>
+          <NavLink to={buttonLink} className="flex">
+            <p>{buttonText}</p>
+            <span className="material-symbols-outlined">chevron_right</span>
+          </NavLink>
         </div>
       </div>
     </div>
