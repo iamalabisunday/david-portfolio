@@ -14,7 +14,7 @@ export default function Card() {
         />
       </div>
       {/* content Section */}
-      <div className="w-full py-[1.5rem] px-[1rem] rounded-b-[8px] flex flex-col gap-[0.5rem]">
+      <div className="w-full py-[1.5rem] px-[1rem] rounded-b-[8px] flex flex-col gap-[0.75rem]">
         <img
           src={AELogo}
           alt="AEJuice Logo"
