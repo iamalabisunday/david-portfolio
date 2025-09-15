@@ -19,6 +19,7 @@ export default function Card({
   buttonText,
   buttonLink,
 }: CardProps) {
+  const isExternal = buttonLink.startsWith("http");
   return (
     <div className="lg:max-w-[22rem] w-full h-auto border-1 border-border">
       {/* Image Section */}
@@ -40,11 +41,24 @@ export default function Card({
         )}
         <p className="text-[1.5rem]">{title}</p>
         <p className="text-[1.25rem] text-priGray">{description}</p>
+        {/* ////////External and Internal link Section////// */}
         <div className="w-full flex justify-end hover:text-priGray cursor-pointer transition-all duration-300">
-          <NavLink to={buttonLink} className="flex">
-            <p>{buttonText}</p>
-            <span className="material-symbols-outlined">chevron_right</span>
-          </NavLink>
+          {isExternal ? (
+            <a
+              href={buttonLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex"
+            >
+              <p>{buttonText}</p>
+              <span className="material-symbols-outlined">chevron_right</span>
+            </a>
+          ) : (
+            <NavLink to={buttonLink} className="flex">
+              <p>{buttonText}</p>
+              <span className="material-symbols-outlined">chevron_right</span>
+            </NavLink>
+          )}
         </div>
       </div>
     </div>

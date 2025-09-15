@@ -10,7 +10,7 @@ export default function BlogPage() {
         title="Ammy and Kiwi Zoo"
         description="Join Ammy on an exciting adventure to the magical Kiwi Zoo! Filled with curious animals, colorful sights"
         buttonText="READ MORE"
-        buttonLink="/"
+        buttonLink="/blog/blogCard"
       />
     </div>
   );

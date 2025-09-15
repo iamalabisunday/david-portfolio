@@ -7,6 +7,7 @@ import AffiliatePage from "./pages/affiliatepage.tsx";
 import ComicsPage from "./pages/comicspage.tsx";
 import ContactAndInfoPage from "./pages/contactandinfopage.tsx";
 import AppLayout from "./components/ui/AppLayout.tsx";
+import BlogCard from "./components/ui/blogCard.tsx";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/" element={<ChildrenPage />} />
           <Route path="/illustration" element={<IllustrationPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/blogCard" element={<BlogCard />} />
           <Route path="/affiliate" element={<AffiliatePage />} />
           <Route path="/comics" element={<ComicsPage />} />
           <Route path="/contactandinfo" element={<ContactAndInfoPage />} />
