@@ -2,7 +2,8 @@ import { NavLink } from "react-router-dom";
 
 type CardProps = {
   img: string;
-  logo: string;
+  logo?: string;
+  logoText?: string;
   title: string;
   description: string;
   buttonText: string;
@@ -12,6 +13,7 @@ type CardProps = {
 export default function Card({
   img,
   logo,
+  logoText,
   title,
   description,
   buttonText,
@@ -24,12 +26,18 @@ export default function Card({
         <img src={img} alt="Affiliate image" className="object-cover w-full" />
       </div>
       {/* content Section */}
-      <div className="w-full py-[1.5rem] px-[1rem] rounded-b-[8px] flex flex-col gap-[0.75rem]">
-        <img
-          src={logo}
-          alt="AEJuice Logo"
-          className="w-[5rem] flex items-start justify-start"
-        />
+      <div className="w-full py-[1.5rem] px-[1rem] rounded-b-[8px] flex flex-col gap-[0.5rem]">
+        {logo ? (
+          <img
+            src={logo}
+            alt="AEJuice Logo"
+            className="w-[5rem] flex items-start justify-start"
+          />
+        ) : (
+          <span className="text-[1rem] font-light tracking-[0.0625rem]">
+            {logoText}
+          </span>
+        )}
         <p className="text-[1.5rem]">{title}</p>
         <p className="text-[1.25rem] text-priGray">{description}</p>
         <div className="w-full flex justify-end hover:text-priGray cursor-pointer transition-all duration-300">
