@@ -4,10 +4,14 @@ import AELogo from "@/assets/affiliate/AEJuice.svg";
 
 export default function Card() {
   return (
-    <div className="max-w-[22rem] h-auto border-1 border-border">
+    <div className="lg:max-w-[22rem] w-full h-auto border-1 border-border">
       {/* Image Section */}
       <div className="w-full">
-        <img src={Affiliate} alt="Affiliate image" className="object-cover" />
+        <img
+          src={Affiliate}
+          alt="Affiliate image"
+          className="object-cover w-full"
+        />
       </div>
       {/* content Section */}
       <div className="w-full py-[1.5rem] px-[1rem] rounded-b-[8px] flex flex-col gap-[0.5rem]">
