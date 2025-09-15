@@ -11,15 +11,7 @@ export default function AffiliatePage() {
         title="Bring your art to life"
         description="AEJuice gives you powerful tools and effects to animate faster, create better, and wow your audience."
         buttonText="Get AEJuice Now"
-        buttonLink="/"
-      />
-      <Card
-        img={Affiliate}
-        logo={AELogo}
-        title="Love you more"
-        description="AEJuice gives you powerful tools and effects to animate faster, create better, and wow your audience."
-        buttonText="Get AEJuice Now"
-        buttonLink="/illustration"
+        buttonLink="https://aejuice.com/?ref=DavidOkon"
       />
     </div>
   );
