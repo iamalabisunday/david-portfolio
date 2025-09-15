@@ -2,13 +2,13 @@ import profilePhoto from "../assets/DavdPhoto.jpg";
 
 export default function ContactAndInfoPage() {
   return (
-    <div className="w-full flex gap-[1.5rem] lg:flex-row sm:flex-col text-priGray">
+    <div className="w-full gap-[2rem] text-priGray grid grid-cols-1 lg:grid-cols-2">
       {/* Profile Photo Section */}
-      <div className="w-fit h-full rounded-md shadow-md">
+      <div className="w-full h-full rounded-md shadow-md">
         <img
           src={profilePhoto}
           alt="David's Profile Photo"
-          className="w-fit h-auto rounded-md bg-cover"
+          className="w-full h-full rounded-md object-cover"
         />
       </div>
       {/* Profile text Section */}
