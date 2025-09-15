@@ -37,11 +37,19 @@ export default function SideBar() {
         {/* navigation social media section  */}
         <div className="w-full flex gap-[0.25rem]">
           {/* Linkin Page */}
-          <NavLink to="https://www.linkedin.com/in/david-okon-66926a154">
+          <NavLink
+            to="https://www.linkedin.com/in/david-okon-66926a154"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={LinkIn} alt="linkIn logo" className="w-[2rem] h-[2rem]" />
           </NavLink>
           {/* Facebook Page */}
-          <NavLink to="https://web.facebook.com/okon.davidedikan">
+          <NavLink
+            to="https://web.facebook.com/okon.davidedikan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={Facebook}
               alt="facebook logo"
@@ -49,11 +57,19 @@ export default function SideBar() {
             />
           </NavLink>
           {/* X Page */}
-          <NavLink to="https://x.com/avidartdesign">
+          <NavLink
+            to="https://x.com/avidartdesign"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={X} alt="twitter logo" className="w-[2rem] h-[2rem]" />
           </NavLink>
           {/* Instagram Page */}
-          <NavLink to="https://www.instagram.com/davidokonart?fbclid=IwY2xjawMyjjlleHRuA2FlbQIxMABicmlkETEzR2Q5RjFWR2tmSHcxM1ZEAR7h_vyUFzU5Cb3IKAgUeox5-S85-xQYIrKcqVOT7os6G6qLVSD7lMbHUSwKQQ_aem_zPFLmatI40xbG1cSR0PO6g">
+          <NavLink
+            to="https://www.instagram.com/davidokonart?fbclid=IwY2xjawMyjjlleHRuA2FlbQIxMABicmlkETEzR2Q5RjFWR2tmSHcxM1ZEAR7h_vyUFzU5Cb3IKAgUeox5-S85-xQYIrKcqVOT7os6G6qLVSD7lMbHUSwKQQ_aem_zPFLmatI40xbG1cSR0PO6g"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={Instagram}
               alt="instagram logo"
@@ -61,7 +77,11 @@ export default function SideBar() {
             />
           </NavLink>
           {/* Youtube page */}
-          <NavLink to="https://www.youtube.com/@davidokon">
+          <NavLink
+            to="https://www.youtube.com/@davidokon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={Youtube}
               alt="youtube logo"
