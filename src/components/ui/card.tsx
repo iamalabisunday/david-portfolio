@@ -34,7 +34,7 @@ export default function Card({
             className="w-[5rem] flex items-start justify-start"
           />
         ) : (
-          <span className="text-[1rem] font-light tracking-[0.0625rem]">
+          <span className="text-[1rem] tracking-[0.0625rem] font-[550]">
             {logoText}
           </span>
         )}
