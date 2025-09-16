@@ -5,7 +5,7 @@ import Menubar from "./menubar";
 export default function AppLayout() {
   return (
     <>
-      {/* md and lager screen  */}
+      {/* Md and lager screen  */}
       <div className="hidden md:flex px-[2rem] h-screen gap-8 ">
         <div className="w-[15.625rem]">
           <SideBar />
