@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --primary: #5e2ea6;
+  --gray: #aaaaaa;
+  --border: #e0e0e0;
+  --darkblack: #151515;
+}
+
+@layer components {
+  .navbarIcon {
+    @apply w-7 h-7 hover:text-[var(--darkblack)];
+  }
+  .mobileNavbartextLink {
+    @apply text-[1.15rem];
+  }
+  .mobileNavbarIcon {
+    @apply w-5 h-5 hover:text-[var(--darkblack)];
+  }
+
+  .navButton {
+    @apply w-full flex justify-start cursor-pointer;
+  }
+}
+
+body {
+  background: var(--background);
+  font-family: "Dosis", sans-serif;
+}
