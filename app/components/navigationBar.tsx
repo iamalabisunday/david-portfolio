@@ -28,7 +28,7 @@ export default function NavBar() {
       </div>
 
       {/* Navigation section one */}
-      <div className="w-full flex flex-col gap-2 text-[1.35rem] font-[550] mt-3">
+      <div className="w-full flex flex-col gap-2 text-[1.25rem] font-[550] mt-3">
         <Link href="/" className={linkClasses("/")}>
           CHILDREN BOOKS
         </Link>
@@ -41,7 +41,7 @@ export default function NavBar() {
       </div>
 
       {/* Navigation section two */}
-      <div className="flex flex-col gap-2 text-[1.35rem] font-[550]">
+      <div className="flex flex-col gap-2 text-[1.25rem] font-[550]">
         <Link href="/contact_Info" className={linkClasses("/contact_Info")}>
           CONTACT AND INFO
         </Link>
