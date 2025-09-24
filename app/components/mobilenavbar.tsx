@@ -45,17 +45,17 @@ export default function MobileNavbar({
       {menu ? (
         <RiCloseLargeLine
           onClick={toggleMenu}
-          className="w-6 h-6 font-bold z-10"
+          className="w-6 h-6 font-bold z-20"
         />
       ) : (
         <MdOutlineMenu
           onClick={toggleMenu}
-          className="w-6 h-6 font-bold z-10"
+          className="w-6 h-6 font-bold z-20"
         />
       )}
       {/* Menu over Section */}
       <div
-        className={`fixed h-screen top-0 bottom-0 right-0 w-[250px] bg-[#0B0D17]/15 backdrop-blur-[80px] transform transition-transform duration-300 ${
+        className={`fixed z-10 h-screen top-0 bottom-0 right-0 w-[250px] bg-[#0B0D17]/15 backdrop-blur-[80px] transform transition-transform duration-300 ${
           menu ? "translate-x-0" : "translate-x-full"
         }`}
       >

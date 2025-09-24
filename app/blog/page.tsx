@@ -3,7 +3,7 @@ import Blog from "../data/blog";
 
 export default function Blogs() {
   return (
-    <div>
+    <div className="w-full flex lg:justify-start justify-center">
       <Card
         img={Blog[0].img}
         heading={Blog[0].heading}
