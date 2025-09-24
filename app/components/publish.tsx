@@ -18,11 +18,10 @@ export default function Publish({
 }) {
   return (
     <div className="w-full h-screen flex gap-4 lg:flex-row flex-col">
-      <div className="w-full lg:w-[70%] h-fit flex flex-col">
-        <img src={img} alt={title} />
-        {/* <button></button> */}
+      <div className="lg:flex-1 lg:w-[75%] h-fit flex flex-col">
+        <img src={img} alt={title} className="w-[80%] mx-auto" />
       </div>
-      <div className="flex-1">
+      <div className="lg:w-[20rem]">
         <div className="w-full h-full lg:border-l-1 lg:border-[var(--border)] px-4 flex flex-col gap-2">
           <span className="text-[1.45rem] text-[var(--primary)] font-bold">
             {title}

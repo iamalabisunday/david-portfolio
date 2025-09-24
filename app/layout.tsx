@@ -31,7 +31,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="lg:w-[1440px] lg:px-4 mx-[auto] h-screen flex md:flex-row flex-col">
+        <div className="w-full lg:px-4 mx-[auto] h-screen flex md:flex-row flex-col">
           {/* Sidebar / Mobile Navbar */}
           <div className="hidden md:flex lg:w-65 md:w-63 h-full pl-8">
             <NavBar />
