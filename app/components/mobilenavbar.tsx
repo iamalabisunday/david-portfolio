@@ -96,7 +96,7 @@ export default function MobileNavbar({
           {/* Navigation section two*/}
           <div className="flex flex-col gap-2 text-[1.35rem] font-[550] pl-10">
             <Link
-              href="/comics"
+              href="/contact_Info"
               className={linkClasses("/contact_Info")}
               onClick={() => {
                 onSelect("/contact_Info");
@@ -106,7 +106,7 @@ export default function MobileNavbar({
               CONTACT AND INFO
             </Link>
             <Link
-              href="/comics"
+              href="/affiliate"
               className={linkClasses("/affiliate")}
               onClick={() => {
                 onSelect("/affiliate");
@@ -116,7 +116,7 @@ export default function MobileNavbar({
               AFFILIATE
             </Link>
             <Link
-              href="/comics"
+              href="/blog"
               className={linkClasses("/blog")}
               onClick={() => {
                 onSelect("/blog");

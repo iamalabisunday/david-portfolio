@@ -41,7 +41,7 @@ export default function ContactAndInfo() {
                 type="text"
                 id="firstname"
                 name="firstname"
-                className="w-full h-10 inputStyle"
+                className="w-full h-10 inputStyle "
               />
             </div>
             {/* Email Address Section */}

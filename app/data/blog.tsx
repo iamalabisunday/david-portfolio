@@ -1,4 +1,4 @@
-const blog = [
+const blogs = [
   {
     id: 1,
     img: "/Affiliate.png",
@@ -9,4 +9,4 @@ const blog = [
     bloginfo: "/blog/ammykiwi",
   },
 ];
-export default blog;
+export default blogs;

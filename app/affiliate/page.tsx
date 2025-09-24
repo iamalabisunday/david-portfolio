@@ -3,7 +3,7 @@ import Affiliate from "../data/affiliate";
 
 export default function Affiliates() {
   return (
-    <div>
+    <div className="w-full flex lg:justify-start justify-center">
       <Card
         img={Affiliate[0].img}
         logo={Affiliate[0].logo}
