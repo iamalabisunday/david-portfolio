@@ -23,6 +23,27 @@ export default function ContactAndInfo() {
             together!
           </p>
         </div>
+        <div className="flex flex-col gap-2">
+          <span className="text-2xl text-[var(--primary)] font-bold">
+            Get in Touch
+          </span>
+          <form action="submit">
+            <div className="flex flex-col gap-2">
+              <label
+                htmlFor=""
+                id="firstname"
+                className="text-[1.25rem] font-medium"
+              >
+                First Name
+              </label>
+              <input
+                type="text"
+                id="firstname"
+                className="w-full h-10 border-2 border-[var(--border)] rounded-[0.5rem] p-[1rem] focus:border-[var(--primary)]"
+              />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
