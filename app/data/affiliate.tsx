@@ -6,7 +6,7 @@ const affiliate = [
     title: "Bring your art to life",
     message:
       "AEJuice gives you powerful tools and effects to animate faster, create better, and wow your audience.",
-    link: "Get AEJuice Now",
+    link: "https://aejuice.com/?ref=DavidOkon",
   },
 ];
 
