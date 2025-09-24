@@ -1,7 +1,16 @@
-export default function Blog() {
+import Card from "../components/card";
+import Blog from "../data/blog";
+
+export default function Blogs() {
   return (
     <div>
-      <h1>Welocme to my Blog Page</h1>
+      <Card
+        img={Blog[0].img}
+        heading={Blog[0].heading}
+        title={Blog[0].title}
+        message={Blog[0].message}
+        more={Blog[0].more}
+      />
     </div>
   );
 }
