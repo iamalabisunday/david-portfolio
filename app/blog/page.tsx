@@ -9,7 +9,7 @@ export default function Blogs() {
         heading={Blog[0].heading}
         title={Blog[0].title}
         message={Blog[0].message}
-        more={Blog[0].more}
+        bloginfo={Blog[0].bloginfo}
       />
     </div>
   );

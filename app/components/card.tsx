@@ -8,7 +8,7 @@ export default function Card({
   message,
   link,
   heading,
-  more,
+  bloginfo,
 }: {
   img: string;
   logo?: string;
@@ -16,7 +16,7 @@ export default function Card({
   message: string;
   link?: string;
   heading?: string;
-  more?: string;
+  bloginfo?: string;
 }) {
   return (
     <div className="max-w-[300px] border-1 border-[var(--border)] rounded-[0.5rem]">
@@ -43,7 +43,7 @@ export default function Card({
                 {link}
               </Link>
             ) : (
-              <span className="text-[0.85rem]">{more}</span>
+              <span className="text-[0.85rem]">{bloginfo}</span>
             )}
 
             <IoIosArrowForward className="tracking-0 text-[0.85rem]" />

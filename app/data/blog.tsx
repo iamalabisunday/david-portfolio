@@ -6,7 +6,7 @@ const blog = [
     title: "Ammy and Kiwi Zoo",
     message:
       "Join Ammy on an exciting adventure to the magical Kiwi Zoo! Filled with curious animals, colorful sights.",
-    more: "READ MORE",
+    bloginfo: "READ MORE",
   },
 ];
 export default blog;
