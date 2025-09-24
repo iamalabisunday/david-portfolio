@@ -23,24 +23,65 @@ export default function ContactAndInfo() {
             together!
           </p>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <span className="text-2xl text-[var(--primary)] font-bold">
             Get in Touch
           </span>
-          <form action="submit">
-            <div className="flex flex-col gap-2">
+          <form action="submit" className="flex flex-col lg:gap-4 gap-3">
+            {/* Full Name Section*/}
+            <div className="w-full flex flex-col gap-2">
               <label
-                htmlFor=""
+                htmlFor="firstname"
                 id="firstname"
-                className="text-[1.25rem] font-medium"
+                className="text-[1.25rem] font-medium text-[var(--typograpy)]"
               >
-                First Name
+                Full Name
               </label>
               <input
                 type="text"
                 id="firstname"
-                className="w-full h-10 border-2 border-[var(--border)] rounded-[0.5rem] p-[1rem] focus:border-[var(--primary)]"
+                name="firstname"
+                className="w-full h-10 border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] focus:border-[var(--primary)] hover:border-[var(--primary)]"
               />
+            </div>
+            {/* Email Address Section */}
+            <div className="w-full flex flex-col gap-2">
+              <label
+                htmlFor="email"
+                id="email"
+                className="text-[1.25rem] font-medium text-[var(--typograpy)]"
+              >
+                Email Address
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="w-full h-10 border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] focus:border-[var(--primary)] hover:border-[var(--primary)]"
+              />
+            </div>
+            {/* Message Section */}
+            <div className="w-full flex flex-col gap-2">
+              <label
+                htmlFor="textarea"
+                id="textarea"
+                className="text-[1.25rem] font-medium text-[var(--typograpy)]"
+              >
+                Message
+              </label>
+              <textarea
+                name="textarea"
+                id="textarea"
+                className="w-full h-40 border-2 border-[var(--border)]
+//               rounded-[0.5rem] p-[1rem]
+//               focus:border-[var(--primary)] hover:border-[var(--primary)]"
+              ></textarea>
+            </div>
+            {/* Button Section */}
+            <div className="w-full flex justify-end">
+              <button className="lg:w-fit w-full bg-[var(--gray)] hover:bg-[var(--primary)] text-white px-4 py-1 text-[1.25rem] font-bold rounded-sm cursor-pointer">
+                Submit
+              </button>
             </div>
           </form>
         </div>
