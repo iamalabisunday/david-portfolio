@@ -24,6 +24,10 @@
   .navButton {
     @apply w-full flex justify-start cursor-pointer;
   }
+
+  .inputStyle {
+    @apply border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] focus:border-[var(--primary)] active:border-[var(--primary)] hover:border-[var(--primary)];
+  }
 }
 
 body {

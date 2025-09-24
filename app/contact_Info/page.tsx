@@ -41,7 +41,7 @@ export default function ContactAndInfo() {
                 type="text"
                 id="firstname"
                 name="firstname"
-                className="w-full h-10 border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] focus:border-[var(--primary)] hover:border-[var(--primary)]"
+                className="w-full h-10 inputStyle"
               />
             </div>
             {/* Email Address Section */}
@@ -57,7 +57,7 @@ export default function ContactAndInfo() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full h-10 border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] focus:border-[var(--primary)] hover:border-[var(--primary)]"
+                className="w-full h-10 inputStyle"
               />
             </div>
             {/* Message Section */}
@@ -72,9 +72,7 @@ export default function ContactAndInfo() {
               <textarea
                 name="textarea"
                 id="textarea"
-                className="w-full h-40 border-2 border-[var(--border)]
-//               rounded-[0.5rem] p-[1rem]
-//               focus:border-[var(--primary)] hover:border-[var(--primary)]"
+                className="w-full h-40 inputStyle"
               ></textarea>
             </div>
             {/* Button Section */}
