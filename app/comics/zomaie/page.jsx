@@ -1,0 +1,13 @@
+import Publish from "@/app/components/publish";
+import Comics from "@/app/data/comics";
+
+export default function Zomaie() {
+  return (
+    <Publish
+      img={Comics[0].img}
+      title={Comics[0].title}
+      message={Comics[0].message}
+      paragraph={Comics[0].paragrapy}
+    />
+  );
+}

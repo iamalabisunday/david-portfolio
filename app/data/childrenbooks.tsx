@@ -1,4 +1,4 @@
-const ChildrenBooks = [
+const childrenBooks = [
   {
     id: 1,
     title: "Ammy Kiwi",
@@ -41,4 +41,4 @@ const ChildrenBooks = [
   },
 ];
 
-export default ChildrenBooks;
+export default childrenBooks;
