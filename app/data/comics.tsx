@@ -1,9 +1,9 @@
 const comics = [
   {
     id: 1,
-    title: "Zomaie",
-    img: "/zomaie.jpg",
-    destination: "/comics/zomaie",
+    title: "Bible Stories with Aunty Tolu",
+    img: "/comics/bibleStoriesV2.jpg",
+    destination: "/comics/biblestoriesV2",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -11,9 +11,19 @@ const comics = [
   },
   {
     id: 2,
-    title: "Illustrate",
-    img: "/illustrate.jpg",
-    destination: "/comics/illustrate",
+    title: "Bible Stories with Aunty Tolu",
+    img: "/comics/bibleStoriesV3.jpg",
+    destination: "/comics/biblestoriesV3",
+    message:
+      "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
+    paragrapy:
+      "Don’t forget to keep an eye out for special clues along the way! Let the adventure begin and may it never end…",
+  },
+  {
+    id: 3,
+    title: "Shege Promax",
+    img: "/comics/Shege.jpg",
+    destination: "/comics/biblestoriesV3",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
