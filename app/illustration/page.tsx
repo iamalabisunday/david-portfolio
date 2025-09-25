@@ -14,12 +14,12 @@ export default function IllustrationPage() {
             <Link
               key={book.id}
               href={book.destination}
-              className="flex flex-col space-y-2 cursor-pointer"
+              className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
             >
               <img
                 src={book.img}
                 alt={book.title}
-                className="object-cover rounded"
+                className="object-cover rounded transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg"
               />
             </Link>
           );
