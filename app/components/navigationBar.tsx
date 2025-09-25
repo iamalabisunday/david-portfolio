@@ -30,26 +30,26 @@ export default function NavBar() {
       {/* Navigation section one */}
       <div className="w-full flex flex-col gap-2 text-[1.25rem] font-[550] mt-3">
         <Link href="/" className={linkClasses("/")}>
-          CHILDREN BOOKS
+          Children Books
         </Link>
         <Link href="/illustration" className={linkClasses("/illustration")}>
-          ILLUSTRATION
+          Illustration
         </Link>
         <Link href="/comics" className={linkClasses("/comics")}>
-          COMICS
+          Comics
         </Link>
       </div>
 
       {/* Navigation section two */}
       <div className="flex flex-col gap-2 text-[1.25rem] font-[550]">
         <Link href="/contact_Info" className={linkClasses("/contact_Info")}>
-          CONTACT AND INFO
+          Contact And Info
         </Link>
         <Link href="/affiliate" className={linkClasses("/affiliate")}>
-          AFFILIATE
+          Affiliate
         </Link>
         <Link href="/blog" className={linkClasses("/blog")}>
-          BLOG
+          Blog
         </Link>
       </div>
 
