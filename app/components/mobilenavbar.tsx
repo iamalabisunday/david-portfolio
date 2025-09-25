@@ -70,7 +70,7 @@ export default function MobileNavbar({
                 setMenu(false);
               }}
             >
-              CHILDREN BOOKS
+              Children Books
             </Link>
             <Link
               href="/illustration"
@@ -80,7 +80,7 @@ export default function MobileNavbar({
                 setMenu(false);
               }}
             >
-              ILLUSTRATION
+              Illustration
             </Link>
             <Link
               href="/comics"
@@ -90,7 +90,7 @@ export default function MobileNavbar({
                 setMenu(false);
               }}
             >
-              COMICS
+              Comics
             </Link>
           </div>
           {/* Navigation section two*/}
@@ -103,7 +103,7 @@ export default function MobileNavbar({
                 setMenu(false);
               }}
             >
-              CONTACT AND INFO
+              Contact And Info
             </Link>
             <Link
               href="/affiliate"
@@ -113,7 +113,7 @@ export default function MobileNavbar({
                 setMenu(false);
               }}
             >
-              AFFILIATE
+              Affiliate
             </Link>
             <Link
               href="/blog"
@@ -123,7 +123,7 @@ export default function MobileNavbar({
                 setMenu(false);
               }}
             >
-              BLOG
+              Blog
             </Link>
             <button
               onClick={() => {
