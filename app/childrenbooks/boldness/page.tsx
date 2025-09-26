@@ -4,10 +4,10 @@ import ChildrenBooks from "@/app/data/childrenbooks"; // adjust path
 export default function Boldness() {
   return (
     <Publish
-      img={ChildrenBooks[9].img}
-      title={ChildrenBooks[9].title}
-      message={ChildrenBooks[9].message}
-      paragraph={ChildrenBooks[9].paragrapy}
+      img={ChildrenBooks[8].img}
+      title={ChildrenBooks[8].title}
+      message={ChildrenBooks[8].message}
+      paragraph={ChildrenBooks[8].paragrapy}
     />
   );
 }

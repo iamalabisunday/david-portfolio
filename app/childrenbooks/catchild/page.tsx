@@ -4,10 +4,10 @@ import ChildrenBooks from "@/app/data/childrenbooks"; // adjust path
 export default function CatChild() {
   return (
     <Publish
-      img={ChildrenBooks[19].img}
-      title={ChildrenBooks[19].title}
-      message={ChildrenBooks[19].message}
-      paragraph={ChildrenBooks[19].paragrapy}
+      img={ChildrenBooks[18].img}
+      title={ChildrenBooks[18].title}
+      message={ChildrenBooks[18].message}
+      paragraph={ChildrenBooks[18].paragrapy}
     />
   );
 }

@@ -4,10 +4,10 @@ import ChildrenBooks from "@/app/data/childrenbooks"; // adjust path
 export default function BePeacefull() {
   return (
     <Publish
-      img={ChildrenBooks[8].img}
-      title={ChildrenBooks[8].title}
-      message={ChildrenBooks[8].message}
-      paragraph={ChildrenBooks[8].paragrapy}
+      img={ChildrenBooks[7].img}
+      title={ChildrenBooks[7].title}
+      message={ChildrenBooks[7].message}
+      paragraph={ChildrenBooks[7].paragrapy}
     />
   );
 }

@@ -4,10 +4,10 @@ import ChildrenBooks from "@/app/data/childrenbooks"; // adjust path
 export default function BeNice() {
   return (
     <Publish
-      img={ChildrenBooks[6].img}
-      title={ChildrenBooks[6].title}
-      message={ChildrenBooks[6].message}
-      paragraph={ChildrenBooks[6].paragrapy}
+      img={ChildrenBooks[5].img}
+      title={ChildrenBooks[5].title}
+      message={ChildrenBooks[5].message}
+      paragraph={ChildrenBooks[5].paragrapy}
     />
   );
 }

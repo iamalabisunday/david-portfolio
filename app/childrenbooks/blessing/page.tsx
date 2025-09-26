@@ -4,10 +4,10 @@ import ChildrenBooks from "@/app/data/childrenbooks"; // adjust path
 export default function Blessing() {
   return (
     <Publish
-      img={ChildrenBooks[5].img}
-      title={ChildrenBooks[5].title}
-      message={ChildrenBooks[5].message}
-      paragraph={ChildrenBooks[5].paragrapy}
+      img={ChildrenBooks[4].img}
+      title={ChildrenBooks[4].title}
+      message={ChildrenBooks[4].message}
+      paragraph={ChildrenBooks[4].paragrapy}
     />
   );
 }

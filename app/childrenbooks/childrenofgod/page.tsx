@@ -4,10 +4,10 @@ import ChildrenBooks from "@/app/data/childrenbooks"; // adjust path
 export default function ChildrenOfGod() {
   return (
     <Publish
-      img={ChildrenBooks[10].img}
-      title={ChildrenBooks[10].title}
-      message={ChildrenBooks[10].message}
-      paragraph={ChildrenBooks[10].paragrapy}
+      img={ChildrenBooks[9].img}
+      title={ChildrenBooks[9].title}
+      message={ChildrenBooks[9].message}
+      paragraph={ChildrenBooks[9].paragrapy}
     />
   );
 }

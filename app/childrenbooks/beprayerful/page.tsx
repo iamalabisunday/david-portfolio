@@ -4,10 +4,10 @@ import ChildrenBooks from "@/app/data/childrenbooks"; // adjust path
 export default function BePrayerful() {
   return (
     <Publish
-      img={ChildrenBooks[7].img}
-      title={ChildrenBooks[7].title}
-      message={ChildrenBooks[7].message}
-      paragraph={ChildrenBooks[7].paragrapy}
+      img={ChildrenBooks[6].img}
+      title={ChildrenBooks[6].title}
+      message={ChildrenBooks[6].message}
+      paragraph={ChildrenBooks[6].paragrapy}
     />
   );
 }
