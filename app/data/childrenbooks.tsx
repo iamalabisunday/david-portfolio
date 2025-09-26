@@ -43,7 +43,7 @@ const childrenBooks = [
     id: 5,
     title: "BaABlessing",
     img: "/children/BaABlessing.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/blessing",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -53,7 +53,7 @@ const childrenBooks = [
     id: 6,
     title: "BeNice",
     img: "/children/BeNice.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/benice",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -63,7 +63,7 @@ const childrenBooks = [
     id: 7,
     title: "BePrayerful",
     img: "/children/BePrayerful.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/beprayerful",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -73,7 +73,7 @@ const childrenBooks = [
     id: 8,
     title: "BePeaceful",
     img: "/children/BePeaceful.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/bepeaceful",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -83,7 +83,7 @@ const childrenBooks = [
     id: 9,
     title: "Boldness",
     img: "/children/Boldness.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/boldness",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -93,7 +93,7 @@ const childrenBooks = [
     id: 10,
     title: "ChildrenOfGod",
     img: "/children/ChildrenOfGod.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/childrenofgod",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -103,7 +103,7 @@ const childrenBooks = [
     id: 11,
     title: "Faith",
     img: "/children/Faith.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/faith",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -111,9 +111,9 @@ const childrenBooks = [
   },
   {
     id: 12,
-    title: "Bilble",
-    img: "/children/Bilble.jpg",
-    destination: "/childrenbooks/zoo",
+    title: "Bible",
+    img: "/children/Bible.jpg",
+    destination: "/childrenbooks/bible",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -123,7 +123,7 @@ const childrenBooks = [
     id: 13,
     title: "Tickets",
     img: "/children/Tickets.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/ticket",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -133,7 +133,7 @@ const childrenBooks = [
     id: 14,
     title: "Map",
     img: "/children/Map.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/map",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -143,7 +143,7 @@ const childrenBooks = [
     id: 15,
     title: "Africa",
     img: "/children/Africa.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/africa",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -153,7 +153,7 @@ const childrenBooks = [
     id: 16,
     title: "Bald",
     img: "/children/Bald.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/bald",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -163,7 +163,7 @@ const childrenBooks = [
     id: 17,
     title: "Creation",
     img: "/children/Creation.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/create",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -171,9 +171,9 @@ const childrenBooks = [
   },
   {
     id: 18,
-    title: "Car",
-    img: "/children/Car.jpg",
-    destination: "/childrenbooks/zoo",
+    title: "Cat Care",
+    img: "/children/Catcare.jpg",
+    destination: "/childrenbooks/catcare",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -181,9 +181,9 @@ const childrenBooks = [
   },
   {
     id: 19,
-    title: "CarChild",
-    img: "/children/CarChild.jpg",
-    destination: "/childrenbooks/zoo",
+    title: "Cat Child",
+    img: "/children/CatChild.jpg",
+    destination: "/childrenbooks/catchild",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -193,7 +193,7 @@ const childrenBooks = [
     id: 20,
     title: "Ntarctica",
     img: "/children/Ntarctica.jpg",
-    destination: "/childrenbooks/zoo",
+    destination: "/childrenbooks/ntarctica",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
