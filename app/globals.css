@@ -29,8 +29,7 @@
 
   /* Custom input style */
   .inputStyle {
-    @apply border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] hover:border-[var(--primary)] focus:border-[var(--primary)] active:border-[var(--gray)];
-    /* active is set to gray so you can SEE the difference */
+    @apply border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] hover:border-[var(--primary)] focus:border-[var(--primary)] active:border-[var(--gray)] focus:border-[var(--primary)] focus:ring-[var(--primary)] focus:outline-none;
   }
 
   /* Hide Scrollbar */

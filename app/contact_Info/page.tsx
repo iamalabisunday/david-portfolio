@@ -1,7 +1,11 @@
 export default function ContactAndInfo() {
   return (
     <div className="w-full h-full flex flex-col lg:flex-row gap-4 lg:gap-8">
-      <img src="./DavidPhoto.jpg" alt="David's Picture" className="w-full" />
+      <img
+        src="./DavidPhoto.jpg"
+        alt="David's Picture"
+        className="max-w-[33.6875rem]"
+      />
       <div className="flex flex-col gap-2">
         <span className="text-2xl text-[var(--primary)] font-bold">
           About Me
