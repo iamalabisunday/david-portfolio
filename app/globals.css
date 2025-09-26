@@ -32,6 +32,16 @@
     @apply border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] hover:border-[var(--primary)] focus:border-[var(--primary)] active:border-[var(--gray)];
     /* active is set to gray so you can SEE the difference */
   }
+
+  /* Hide Scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
 
 body {

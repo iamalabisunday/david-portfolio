@@ -41,7 +41,7 @@ export default function RootLayout({
           </div>
 
           {/* Main content */}
-          <main className="flex-1 md:p-4 px-4 my-2 overflow-auto">
+          <main className="flex-1 md:p-4 px-4 my-2 overflow-auto no-scrollbar">
             {children}
           </main>
         </div>

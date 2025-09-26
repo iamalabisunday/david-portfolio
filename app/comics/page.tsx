@@ -8,7 +8,7 @@ export default function ComicsPage() {
   return (
     <>
       <div className="w-full lg:columns-3 columns-1 space-y-4">
-        {[...comics.slice(3), ...comics.slice(0, 3)].map((book) => {
+        {comics.map((book) => {
           if (!book) return null;
           return (
             <Link
