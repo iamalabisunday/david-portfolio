@@ -19,8 +19,8 @@ export default function Card({
   bloginfo?: string;
 }) {
   return (
-    <div className="max-w-[300px] border-1 border-[var(--border)] rounded-[0.5rem]">
-      <img src={img} alt="Affiliate Post" />
+    <div className="max-w-[300px] border-1 border-[var(--border)] rounded-[0.5rem] overflow-hidden">
+      <img src={img} alt="Affiliate Post" className="object-cover" />
       <div className="p-4 flex flex-col gap-2">
         <div className="flex flex-col gap-1">
           {logo ? (
