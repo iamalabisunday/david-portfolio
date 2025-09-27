@@ -41,6 +41,14 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+
+  .blogbody {
+    @apply font-normal text-[1.15rem] leading-7;
+  }
+
+  .blogheader {
+    @apply text-[var(--primary)] text-[1.85rem] font-[600];
+  }
 }
 
 body {

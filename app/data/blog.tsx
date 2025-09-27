@@ -2,10 +2,10 @@ const blogs = [
   {
     id: 1,
     img: "/Affiliate.png",
-    heading: "Article",
-    title: "Ammy and Kiwi Zoo",
+    heading: "Blog",
+    title: "Illustration Mech Robot",
     message:
-      "Join Ammy on an exciting adventure to the magical Kiwi Zoo! Filled with curious animals, colorful sights.",
+      "I start with research and references, sketch the pose, block in colours, then refine with brushes and stabilization. Final touches include colour adjustments, atmosphere, and balanced lighting.",
     bloginfo: "/blog/ammykiwi",
   },
 ];
