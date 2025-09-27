@@ -3,7 +3,7 @@ const illustrations = [
     id: 1,
     title: "Zomaie",
     img: "/illustration/zomaie.jpg",
-    destination: "/comics/zomaie",
+    destination: "/illustration/zomaie",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
@@ -23,7 +23,7 @@ const illustrations = [
     id: 3,
     title: "Stylized Environment",
     img: "/illustration/Stylized_Environment.jpg",
-    destination: "/illustration/illustrate",
+    destination: "/illustration/stylized",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragrapy:
