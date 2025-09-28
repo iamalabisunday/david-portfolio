@@ -80,14 +80,14 @@ export default function Ammykwiblog() {
         </p>
         <img src="/blog/colordetails.png" alt="Color details" />
         <img src="/blog/details.png" alt="Image details" />
-        <span className="blogheader">ADDING ATMOSPHERE</span>
+        <span className="blogheader">Adding Atmosphere</span>
         <p className="blogbody">
           I created a layer above the mech robot and used the default Running
           Colour edge brush. (from Watercolour brush set) and a Soft airbrush to
           draw shapes of smoke covering some part of his feet.
         </p>
         <img src="/blog/Imagewithatmophere.png" alt="Image with Atmophere" />
-        <span className="blogheader">COLOUR ADJUSTMENTS</span>
+        <span className="blogheader">Colour Adjustments</span>
         <p className="blogbody">
           At some point in an illustration, you can sometimes feel unhappy with
           the colours. Then no need to worry the Tonal correction is there to
@@ -97,7 +97,7 @@ export default function Ammykwiblog() {
         </p>
         <img src="/blog/tonecurve.png" alt="Tone Curve" className="w-fit" />
         <img src="/blog/huesaturation.png" alt="Tone Curve" className="w-fit" />
-        <span className="blogheader">ADDITIONAL LIGHT</span>
+        <span className="blogheader">Additional Light</span>
         <p className="blogbody">
           It is always nice to balance your painting. In this case, I added two
           light sources, both warm and cool colours, which gives this
