@@ -31,7 +31,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-full lg:px-4 mx-[auto] h-screen flex md:flex-row flex-col">
+        <div className="w-full lg:pl-4 mx-[auto] h-screen flex md:flex-row flex-col">
           {/* Sidebar / Mobile Navbar */}
           <div className="hidden md:flex lg:w-65 md:w-63 h-full pl-8">
             <NavBar />
@@ -41,7 +41,7 @@ export default function RootLayout({
           </div>
 
           {/* Main content */}
-          <main className="flex-1 md:p-4 px-4 my-2 overflow-auto no-scrollbar">
+          <main className="flex-1 md:p-4 lg:pr-4 px-4 my-2 overflow-auto ">
             {children}
           </main>
         </div>
