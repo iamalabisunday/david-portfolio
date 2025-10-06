@@ -1,26 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --primary: #5e2ea6;
+  --gray: #aaaaaa;
+  --border: #e0e0e0;
+  --darkblack: #151515;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer components {
+  .navbarIcon {
+    @apply w-7 h-7 hover:text-[var(--darkblack)];
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  .mobileNavbartextLink {
+    @apply text-[1.15rem];
+  }
+
+  .mobileNavbarIcon {
+    @apply w-5 h-5 hover:text-[var(--darkblack)];
+  }
+
+  .navButton {
+    @apply w-full flex justify-start cursor-pointer;
+  }
+
+  /* Hide Scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .blogbody {
+    @apply font-normal md:text-[1.15rem] text-[1.05rem] leading-7;
+  }
+
+  .blogheader {
+    @apply text-[var(--primary)] lg:text-[1.85rem] md:text-[1.5rem] text-[1.25rem] font-[600];
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Dosis", sans-serif;
 }
