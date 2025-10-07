@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --primary: #5e2ea6;
+  --gray: #aaaaaa;
+  --border: #e0e0e0;
+  --darkblack: #151515;
+  --typography: #4c4c4c;
+}
+
+@layer components {
+  .navbarIcon {
+    @apply w-7 h-7 hover:text-[var(--darkblack)];
+  }
+
+  .mobileNavbartextLink {
+    @apply text-[1.15rem];
+  }
+
+  .mobileNavbarIcon {
+    @apply w-5 h-5 hover:text-[var(--darkblack)];
+  }
+
+  .navButton {
+    @apply w-full flex justify-start cursor-pointer;
+  }
+
+  /* Custom input style */
+  .inputStyle {
+    @apply border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] hover:border-[var(--primary)] focus:border-[var(--primary)] active:border-[var(--gray)] focus:ring-[var(--primary)] focus:outline-none;
+  }
+
+  /* Hide Scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .blogbody {
+    @apply font-normal md:text-[1.15rem] text-[1.05rem] leading-7;
+  }
+
+  .blogheader {
+    @apply text-[var(--primary)] lg:text-[1.85rem] md:text-[1.5rem] text-[1.25rem] font-[600];
+  }
+}
+
+body {
+  background: var(--background);
+  font-family: "Dosis", sans-serif;
+}
