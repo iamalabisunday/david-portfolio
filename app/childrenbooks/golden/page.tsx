@@ -1,13 +1,15 @@
-import Publish from "../../components/publish";
+import Childrenbooksinterior from "../../components/childrenbooksinterior";
 import ChildrenBooks from "../../data/childrenbooks";
 
 export default function Golden() {
   return (
-    <Publish
+    <Childrenbooksinterior
+      id={2}
       img={ChildrenBooks[1].img}
       title={ChildrenBooks[1].title}
       message={ChildrenBooks[1].message}
-      paragraph={ChildrenBooks[1].paragrapy}
+      paragraph={ChildrenBooks[1].paragraph}
+      books={ChildrenBooks}
     />
   );
 }
