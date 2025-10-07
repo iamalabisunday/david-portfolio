@@ -1,7 +1,6 @@
 "use client";
 import ChildrenBooks from "./data/childrenbooks";
 import Interiors from "./data/Interior";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
@@ -17,22 +16,6 @@ export default function Home() {
         {[...ChildrenBooks.slice(3), ...ChildrenBooks.slice(0, 3)].map(
           (book) => {
             if (!book) return null;
-            return (
-              <Link
-                key={book.id}
-                href={book.destination ?? "#"}
-                className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
-              >
-                <Image
-                  src={book.image}
-                  alt={book.title}
-                  width={600}
-                  height={400}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="object-cover rounded transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg"
-                />
-              </Link>
-            );
           }
         )}
       </div>
