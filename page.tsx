@@ -20,7 +20,7 @@ export default function Home() {
             return (
               <Link
                 key={book.id}
-                href={book.destination || "#"}
+                href={book.destination ?? "#"}
                 className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
               >
                 <Image
