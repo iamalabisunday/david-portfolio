@@ -2,7 +2,7 @@ import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 
 export default function Card({
-  img,
+  image,
   logo,
   title,
   message,
@@ -10,7 +10,7 @@ export default function Card({
   heading,
   bloginfo,
 }: {
-  img: string;
+  image: string;
   logo?: string;
   title: string;
   message: string;
@@ -20,7 +20,7 @@ export default function Card({
 }) {
   return (
     <div className="max-w-[300px] border-1 border-[var(--border)] rounded-[0.5rem] overflow-hidden">
-      <img src={img} alt="Affiliate Post" className="object-cover" />
+      <img src={image} alt="Affiliate Post" className="object-cover" />
       <div className="p-4 flex flex-col gap-2">
         <div className="flex flex-col gap-1">
           {logo ? (

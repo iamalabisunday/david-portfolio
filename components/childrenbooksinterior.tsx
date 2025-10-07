@@ -56,7 +56,7 @@ export default function Publish({ id }: { id: number }) {
         </button>
 
         <img
-          src={currentBook.img}
+          src={currentBook.image}
           alt={currentBook.title}
           className="max-w-[65%] mx-auto"
         />

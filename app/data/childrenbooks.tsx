@@ -2,7 +2,7 @@
 export type Book = {
   id: number;
   title: string;
-  img: string;
+  image: string;
   destination?: string;
   message: string;
   paragraph: string;
@@ -12,7 +12,7 @@ const childrenBooks: Book[] = [
   {
     id: 1,
     title: "Ammy Kiwi",
-    img: "/children/AmmyKiwi.jpg",
+    image: "/children/AmmyKiwi.jpg",
     destination: "/childrenbooks/ammykiwi",
     message:
       "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
@@ -22,7 +22,7 @@ const childrenBooks: Book[] = [
   {
     id: 2,
     title: "Golden",
-    img: "/children/Golden.jpg",
+    image: "/children/Golden.jpg",
     destination: "/childrenbooks/golden",
     message:
       "Explore the magical golden fields where dreams come alive. Join the journey through the pages filled with wonder and imagination.",
@@ -32,7 +32,7 @@ const childrenBooks: Book[] = [
   {
     id: 3,
     title: "Woods",
-    img: "/children/Woods.jpg",
+    image: "/children/Woods.jpg",
     destination: "/childrenbooks/wood",
     message:
       "Step into the woods with curious hearts and playful spirits. Discover the mystery that hides among the trees.",
@@ -42,7 +42,7 @@ const childrenBooks: Book[] = [
   {
     id: 4,
     title: "Zoo",
-    img: "/children/Zoo.jpg",
+    image: "/children/Zoo.jpg",
     destination: "/childrenbooks/zoo",
     message:
       "Journey through a colorful zoo full of talking animals, laughter, and fun.",

@@ -2,12 +2,12 @@ import { MdNavigateNext } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
 
 export default function Publish({
-  img,
+  image,
   title,
   message,
   paragraph,
 }: {
-  img: string;
+  image: string;
   title: string;
   message: string;
   paragraph: string;
@@ -24,7 +24,7 @@ export default function Publish({
         <div className="absolute top-1/2 left-10 transform -translate-y-1/2 bg-[var(--border)] hover:bg-[var(--primary)] text-white p-2 rounded-full cursor-pointer z-10">
           <IoIosArrowBack size={30} />
         </div>
-        <img src={img} alt={title} className="max-w-[65%] mx-auto" />
+        <img src={image} alt={title} className="max-w-[65%] mx-auto" />
       </div>
       {/* Side Content Section */}
       <div className="lg:w-[20rem]">

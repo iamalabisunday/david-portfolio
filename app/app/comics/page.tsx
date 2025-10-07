@@ -17,7 +17,7 @@ export default function ComicsPage() {
               className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
             >
               <img
-                src={book.img}
+                src={book.image}
                 alt={book.title}
                 className="object-cover rounded transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg"
               />

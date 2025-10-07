@@ -5,7 +5,7 @@ export default function Affiliates() {
   return (
     <div className="w-full flex lg:justify-start justify-center">
       <Card
-        img={Affiliate[0].img}
+        image={Affiliate[0].image}
         logo={Affiliate[0].logo}
         title={Affiliate[0].title}
         message={Affiliate[0].message}

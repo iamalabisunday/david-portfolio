@@ -5,7 +5,7 @@ export default function Stylized() {
   return (
     <Illustrationinterior
       id={3}
-      img={Illustration[2].img}
+      image={Illustration[2].image}
       title={Illustration[2].title}
       message={Illustration[2].message}
       paragraph={Illustration[2].paragraph}

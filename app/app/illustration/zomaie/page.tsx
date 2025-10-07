@@ -4,7 +4,7 @@ import Illustration from "../../data/illustration";
 export default function Zomaie() {
   return (
     <Publish
-      img={Illustration[0].img}
+      image={Illustration[0].image}
       title={Illustration[0].title}
       message={Illustration[0].message}
       paragraph={Illustration[0].paragrapy}

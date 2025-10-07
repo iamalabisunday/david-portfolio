@@ -5,7 +5,7 @@ export default function Blogs() {
   return (
     <div className="w-full flex lg:justify-start justify-center">
       <Card
-        img={Blog[0].img}
+        image={Blog[0].image}
         heading={Blog[0].heading}
         title={Blog[0].title}
         message={Blog[0].message}

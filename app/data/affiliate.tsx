@@ -1,7 +1,7 @@
 const affiliate = [
   {
     id: 1,
-    img: "/Affiliate.png",
+    image: "/Affiliate.png",
     logo: "./AEJuice.svg",
     title: "Bring your art to life",
     message:

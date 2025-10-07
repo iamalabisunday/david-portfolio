@@ -4,7 +4,7 @@ import ChildrenBooks from "../../data/childrenbooks"; // adjust path
 export default function Ammykiwi() {
   return (
     <Publish
-      img={ChildrenBooks[0].img}
+      image={ChildrenBooks[0].image}
       title={ChildrenBooks[0].title}
       message={ChildrenBooks[0].message}
       paragraph={ChildrenBooks[0].paragrapy}

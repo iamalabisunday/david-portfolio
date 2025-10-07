@@ -1,7 +1,7 @@
 const blogs = [
   {
     id: 1,
-    img: "/blog/cover.png",
+    image: "/blog/cover.png",
     heading: "Blog",
     title: "Illustration Mech Robot",
     message:

@@ -1,17 +1,17 @@
 type Book = {
   id: number;
   title: string;
-  img: string;
+  image: string;
   destination?: string;
 };
 
 export default function Publish({
-  img,
+  image,
   title,
   message,
   paragraph,
 }: {
-  img: string;
+  image: string;
   title: string;
   message: string;
   paragraph: string;
@@ -19,7 +19,7 @@ export default function Publish({
   return (
     <div className="w-full h-screen flex gap-4 lg:flex-row flex-col">
       <div className="lg:flex-1 lg:w-[75%] h-fit flex flex-col">
-        <img src={img} alt={title} className="w-[80%] mx-auto" />
+        <img src={image} alt={title} className="w-[80%] mx-auto" />
       </div>
       <div className="lg:w-[20rem]">
         <div className="w-full h-full lg:border-l-1 lg:border-[var(--border)] px-4 flex flex-col gap-2">

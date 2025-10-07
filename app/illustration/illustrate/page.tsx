@@ -5,7 +5,7 @@ export default function Illustrate() {
   return (
     <Illustrationinterior
       id={2}
-      img={Illustration[1].img}
+      image={Illustration[1].image}
       title={Illustration[1].title}
       message={Illustration[1].message}
       paragraph={Illustration[1].paragraph}
