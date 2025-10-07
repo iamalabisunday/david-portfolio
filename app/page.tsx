@@ -24,7 +24,7 @@ export default function Home() {
                 className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
               >
                 <Image
-                  src={book.img}
+                  src={book.image}
                   alt={book.title}
                   width={600}
                   height={400}
@@ -48,7 +48,7 @@ export default function Home() {
               className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
             >
               <Image
-                src={book.img}
+                src={book.image}
                 alt={book.title}
                 width={600}
                 height={400}

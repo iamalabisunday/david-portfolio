@@ -2,6 +2,7 @@
 import illustration from "../data/illustration";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function IllustrationPage() {
   const router = useRouter();
@@ -13,10 +14,10 @@ export default function IllustrationPage() {
           return (
             <Link
               key={book.id}
-              href={book.destination}
+              href={book.destination || "#"}
               className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
             >
-              <img
+              <Image
                 src={book.image}
                 alt={book.title}
                 className="object-cover rounded transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg"
