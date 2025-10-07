@@ -2,15 +2,17 @@
 import { useRouter } from "next/navigation";
 import { MdNavigateNext } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
-import childrenBooks, { Book } from "../data/childrenbooks";
+import { Book } from "../data/childrenbooks";
 
-export default function Publish({ id }: { id: number }) {
+type PublishProps = {
+  id: number;
+  books: Book[];
+};
+
+export default function Publish({ id, books }: PublishProps) {
   const router = useRouter();
 
-  // Find the current book using the ID
-  const currentIndex = childrenBooks.findIndex((book) => book.id === id);
-
-  // Safety: If ID not found
+  const currentIndex = books.findIndex((book) => book.id === id);
   if (currentIndex === -1) {
     return (
       <div className="w-full h-screen flex items-center justify-center text-[var(--typography)] text-lg">
@@ -19,19 +21,17 @@ export default function Publish({ id }: { id: number }) {
     );
   }
 
-  const currentBook = childrenBooks[currentIndex];
+  const currentBook = books[currentIndex];
 
-  // Handlers for navigation
   const handleNext = () => {
-    const nextIndex = (currentIndex + 1) % childrenBooks.length;
-    const nextBook = childrenBooks[nextIndex];
+    const nextIndex = (currentIndex + 1) % books.length;
+    const nextBook = books[nextIndex];
     if (nextBook.destination) router.push(nextBook.destination);
   };
 
   const handlePrevious = () => {
-    const prevIndex =
-      (currentIndex - 1 + childrenBooks.length) % childrenBooks.length;
-    const prevBook = childrenBooks[prevIndex];
+    const prevIndex = (currentIndex - 1 + books.length) % books.length;
+    const prevBook = books[prevIndex];
     if (prevBook.destination) router.push(prevBook.destination);
   };
 
@@ -39,7 +39,6 @@ export default function Publish({ id }: { id: number }) {
     <div className="w-full h-screen flex gap-4 lg:flex-row flex-col">
       {/* Image Section */}
       <div className="relative lg:flex-1 lg:w-[75%] h-fit flex flex-col">
-        {/* Previous Button */}
         <button
           onClick={handlePrevious}
           className="absolute top-1/2 left-10 transform -translate-y-1/2 bg-[var(--border)] hover:bg-[var(--primary)] text-white p-2 rounded-full cursor-pointer z-10"
@@ -47,7 +46,6 @@ export default function Publish({ id }: { id: number }) {
           <IoIosArrowBack size={30} />
         </button>
 
-        {/* Next Button */}
         <button
           onClick={handleNext}
           className="absolute top-1/2 right-10 transform -translate-y-1/2 bg-[var(--border)] hover:bg-[var(--primary)] text-white p-2 rounded-full cursor-pointer z-10"
@@ -62,7 +60,6 @@ export default function Publish({ id }: { id: number }) {
         />
       </div>
 
-      {/* Side Content Section */}
       <div className="lg:w-[20rem]">
         <div className="w-full h-full lg:border-l border-[var(--border)] px-4 flex flex-col gap-2">
           <span className="text-[1.45rem] text-[var(--primary)] font-bold">
