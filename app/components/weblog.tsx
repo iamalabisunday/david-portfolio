@@ -1,4 +1,4 @@
-import Blogs from "@/app/blog/page";
+import Blogs from "../blog/page";
 
 export default function Weblog({
   img,
@@ -12,7 +12,7 @@ export default function Weblog({
   return (
     <div className="w-full lg:min-h-screen flex lg:flex-row flex-col">
       {/* Main Blog Section */}
-      <div className="w-fit flex flex-col gap-2 mr-4 overflow-scroll text-[1.10rem] text-[var(--typograpy)] font-[400] leading-[1.85rem]">
+      <div className="w-fit flex flex-col gap-2 mr-4 overflow-scroll text-[1.10rem] text-[var(--typography)] font-[400] leading-[1.85rem]">
         <img src={img} alt="AmmyKiwi.jpg" className="w-fit h-[25rem]" />
         <span className="text-2xl font-bold text-[var(--primary)] ">
           {title}

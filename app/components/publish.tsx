@@ -26,7 +26,7 @@ export default function Publish({
           <span className="text-[1.45rem] text-[var(--primary)] font-bold">
             {title}
           </span>
-          <div className="text-[1.10rem] text-[var(--typograpy)] font-[400] leading-[1.85rem] flex flex-col gap-2">
+          <div className="text-[1.10rem] text-[var(--typography)] font-[400] leading-[1.85rem] flex flex-col gap-2">
             {message}
             <div>{paragraph}</div>
           </div>

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-4">
       {/* ✅ Children's books cover */}
-      <span className="w-full text-2xl font-[500] text-[var(--typograpy)] bg-redd-900">
+      <span className="w-full text-2xl font-[500] text-[var(--typography)] bg-redd-900">
         Children&apos;s Books Cover
       </span>
       <div className="w-full lg:columns-3 columns-1 space-y-4 md:pb-10 pb-2">
@@ -36,7 +36,7 @@ export default function Home() {
         )}
       </div>
       {/* ✅ Interior illustrations section */}
-      <span className="w-full text-2xl font-[500] text-[var(--typograpy)] bg-redd-900">
+      <span className="w-full text-2xl font-[500] text-[var(--typography)] bg-redd-900">
         Interior Illustrations
       </span>
       <div className="w-full lg:columns-3 columns-1 space-y-4 border-t-1 border-[var(--border)] md:pt-10 pt-2">

@@ -7,6 +7,7 @@
   --gray: #aaaaaa;
   --border: #e0e0e0;
   --darkblack: #151515;
+  --typography: #4c4c4c;
 }
 
 @layer components {
@@ -24,6 +25,11 @@
 
   .navButton {
     @apply w-full flex justify-start cursor-pointer;
+  }
+
+  /* Custom input style */
+  .inputStyle {
+    @apply border-2 border-[var(--border)] rounded-[0.5rem] py-[1.45rem] px-[1.25rem] hover:border-[var(--primary)] focus:border-[var(--primary)] active:border-[var(--gray)] focus:ring-[var(--primary)] focus:outline-none;
   }
 
   /* Hide Scrollbar */
