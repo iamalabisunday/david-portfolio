@@ -1,13 +1,15 @@
-import Publish from "../../components/publish";
+import Illustrationinterior from "../../components/illustrationinterior";
 import Illustration from "../../data/illustration";
 
 export default function Illustrate() {
   return (
-    <Publish
+    <Illustrationinterior
+      id={2}
       img={Illustration[1].img}
       title={Illustration[1].title}
       message={Illustration[1].message}
-      paragraph={Illustration[1].paragrapy}
+      paragraph={Illustration[1].paragraph}
+      books={Illustration}
     />
   );
 }

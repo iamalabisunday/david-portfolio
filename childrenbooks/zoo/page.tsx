@@ -1,13 +1,15 @@
-import Publish from "../../components/publish";
+import Childrenbooksinterior from "../../components/childrenbooksinterior";
 import ChildrenBooks from "../../data/childrenbooks";
 
 export default function Zoo() {
   return (
-    <Publish
+    <Childrenbooksinterior
+      id={4}
       img={ChildrenBooks[3].img}
       title={ChildrenBooks[3].title}
       message={ChildrenBooks[3].message}
-      paragraph={ChildrenBooks[3].paragrapy}
+      paragraph={ChildrenBooks[3].paragraph}
+      books={ChildrenBooks}
     />
   );
 }
