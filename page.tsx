@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <div className="flex flex-col gap-4">
-      {/* ✅ Children's books cover */}
+      {/* Children's books cover */}
       <span className="w-full text-2xl font-[500] text-[var(--typography)]">
         Children&apos;s Books Cover
       </span>
@@ -34,7 +34,7 @@ export default function Home() {
             )
         )}
       </div>
-      {/* ✅ Interior illustrations section */}
+      {/* Interior illustrations section */}
       <span className="w-full text-2xl font-[500] text-[var(--typography)] bg-redd-900">
         Interior Illustrations
       </span>
