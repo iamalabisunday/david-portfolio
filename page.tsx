@@ -3,7 +3,6 @@ import ChildrenBooks from "./data/childrenbooks";
 import Interiors from "./data/Interior";
 import Link from "next/link";
 import Image from "next/image";
-import type { Book } from "./types";
 
 export default function Home() {
   return (
@@ -17,7 +16,7 @@ export default function Home() {
           (book) => (
             <Link
               key={book.id}
-              href={book.destination}
+              href={book.destination!}
               className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
             >
               <Image
