@@ -1,8 +1,4 @@
-export interface Book {
-  id: number;
-  title: string;
-  image: string;
-}
+import type { Book } from "../types";
 
 const Interiors: Book[] = [
   {

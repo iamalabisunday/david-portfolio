@@ -1,13 +1,6 @@
 // app/data/childrenbooks.ts
 
-export interface Book {
-  id: number;
-  title: string;
-  image: string;
-  destination: string;
-  message: string;
-  paragraph: string;
-}
+import type { Book } from "../types";
 
 const illustrations: Book[] = [
   {

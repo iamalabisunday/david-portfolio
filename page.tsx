@@ -1,13 +1,11 @@
 "use client";
 import ChildrenBooks from "./data/childrenbooks";
 import Interiors from "./data/Interior";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import type { Book } from "./data/childrenbooks";
+import type { Book } from "./types";
 
 export default function Home() {
-  const router = useRouter();
   return (
     <div className="flex flex-col gap-4">
       {/* Children's books cover */}
@@ -16,7 +14,7 @@ export default function Home() {
       </span>
       <div className="w-full lg:columns-3 columns-1 space-y-4 md:pb-10 pb-2">
         {[...ChildrenBooks.slice(3), ...ChildrenBooks.slice(0, 3)].map(
-          (book: Book) => (
+          (book) => (
             <Link
               key={book.id}
               href={book.destination}
@@ -35,7 +33,7 @@ export default function Home() {
         )}
       </div>
       {/* Interior illustrations section */}
-      <span className="w-full text-2xl font-[500] text-[var(--typography)] bg-redd-900">
+      <span className="w-full text-2xl font-[500] text-[var(--typography)]">
         Interior Illustrations
       </span>
       <div className="w-full lg:columns-3 columns-1 space-y-4 border-t-1 border-[var(--border)] md:pt-10 pt-2">
@@ -43,7 +41,7 @@ export default function Home() {
           return (
             <div
               key={book.id}
-              className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
+              className="flex-col space-y-2 group block overflow-hidden rounded-lg"
             >
               <Image
                 src={book.image}
