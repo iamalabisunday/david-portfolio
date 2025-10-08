@@ -25,7 +25,6 @@ export default function Home() {
       </span>
       <div className="w-full lg:columns-3 columns-1 space-y-4 border-t-1 border-[var(--border)] md:pt-10 pt-2">
         {[...Interiors.slice(3), ...Interiors.slice(0, 3)].map((book) => {
-          if (!book) return null;
           return (
             <div
               key={book.id}
