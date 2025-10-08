@@ -1,4 +1,10 @@
-const Interiors = [
+export interface Book {
+  id: number;
+  title: string;
+  image: string;
+}
+
+const Interiors: Book[] = [
   {
     id: 1,
     title: "BaABlessing",
@@ -38,13 +44,11 @@ const Interiors = [
     id: 8,
     title: "Bible",
     image: "/children/Bible.jpg",
-    destination: "/childrenbooks/bible",
   },
   {
     id: 9,
     title: "Tickets",
     image: "/children/Tickets.jpg",
-    destination: "/childrenbooks/ticket",
   },
   {
     id: 10,

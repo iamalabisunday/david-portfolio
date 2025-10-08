@@ -1,14 +1,14 @@
 // app/data/childrenbooks.ts
-export type Book = {
+export interface Book {
   id: number;
   title: string;
   image: string;
-  destination?: string;
+  destination: string;
   message: string;
   paragraph: string;
-};
+}
 
-const childrenBooks: Book[] = [
+const ChildrenBooks: Book[] = [
   {
     id: 1,
     title: "Ammy Kiwi",
@@ -51,4 +51,4 @@ const childrenBooks: Book[] = [
   },
 ];
 
-export default childrenBooks;
+export default ChildrenBooks;

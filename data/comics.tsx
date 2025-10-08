@@ -1,4 +1,13 @@
-const comics = [
+export interface Book {
+  id: number;
+  title: string;
+  image: string;
+  destination: string;
+  message: string;
+  paragrapy: string;
+}
+
+const Comics: Book[] = [
   {
     id: 1,
     title: "Bible Stories with Aunty Tolu",
@@ -111,4 +120,4 @@ const comics = [
   },
 ];
 
-export default comics;
+export default Comics;
