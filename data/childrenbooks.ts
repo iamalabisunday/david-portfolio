@@ -18,9 +18,9 @@ const ChildrenBooks: Book[] = [
     image: "/children/Golden.jpg",
     destination: "/childrenbooks/golden",
     message:
-      "Explore the magical golden fields where dreams come alive. Join the journey through the pages filled with wonder and imagination.",
+      "This book is meant to guide children on the right path of obeience, love, honesty and loyalty towards fellow human beings. It will to develop their minds as good people as they grow from childhood to adulthood, by making them memorise messages of the scriptural verses at home and schools, to build a better world of peace, purity, love and cooperation among people according to the original purpose of God's creation of the world.",
     paragraph:
-      "Every story has a sparkle — find yours in Golden’s world of dreams!",
+      "There could be less hatred, racism, crimes and disaffection in scoiety when children are well taught and brought up with the topics, memory verses and pictures in this book.",
   },
   {
     id: 3,
