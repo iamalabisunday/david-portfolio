@@ -1,5 +1,5 @@
 // app/data/childrenbooks.ts
-import type { Book } from "../types";
+import type { Book } from "./types";
 
 const ChildrenBooks: Book[] = [
   {
