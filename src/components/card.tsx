@@ -47,12 +47,12 @@ export default function Card({
               </Link>
             ) : (
               <span className="text-[0.85rem]">
-                <Link href={`${bloginfo}`} className="text-[0.85rem]">
+                <a href={`${bloginfo}`} className="text-[0.85rem]">
                   <div className="flex gap-1 items-center">
                     <span> READ MORE</span>
                     <IoIosArrowForward className="tracking-0 text-[0.85rem]" />
                   </div>
-                </Link>
+                </a>
               </span>
             )}
           </div>

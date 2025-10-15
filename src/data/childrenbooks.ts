@@ -3,7 +3,7 @@ export type Book = {
   id: number;
   title: string;
   image: string;
-  destination?: string;
+  destination: string;
   message: string;
   paragraph: string;
 };
@@ -14,8 +14,8 @@ const childrenBooks: Book[] = [
     title: "Ammy Kiwi",
     image: "/children/AmmyKiwi.jpg",
     destination: "/childrenbooks/ammykiwi",
-    message: "hello world",
-    // "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
+    message:
+      "Go on an adventure with a little girl and her pup as they make-believe their way through the zoo! Pack your adventure bag with all the necessities and discover all kinds of fun animals that live around the world! Ammy and Kiwi are the best of friends and love learning together and making memories.",
     paragraph:
       "Don’t forget to keep an eye out for special clues along the way! Let the adventure begin and may it never end…",
   },
@@ -33,7 +33,7 @@ const childrenBooks: Book[] = [
     id: 3,
     title: "Woods",
     image: "/children/Woods.jpg",
-    destination: "/childrenbooks/wood",
+    destination: "/childrenbooks/woods",
     message:
       "Step into the woods with curious hearts and playful spirits. Discover the mystery that hides among the trees.",
     paragraph:

@@ -1,4 +1,5 @@
-import Blogs from "../blog/page";
+"use client";
+import Blogs from "../app/blog/page";
 
 export default function Weblog({
   image,

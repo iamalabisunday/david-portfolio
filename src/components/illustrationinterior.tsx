@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { MdNavigateNext } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
-import illustrations, { Book } from "../data/illustration";
+import illustrations from "../data/illustration";
 
 export default function Publish({ id }: { id: number }) {
   const router = useRouter();
