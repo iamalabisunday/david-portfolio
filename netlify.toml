@@ -1,11 +1,12 @@
 [build]
-  base = "/" 
   command = "npm run build"
   publish = ".next"
 
 [functions]
   included_files = ["public/**"]
 
+[build.environment]
+  NODE_VERSION = "22"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
