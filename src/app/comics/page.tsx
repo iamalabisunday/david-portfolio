@@ -3,29 +3,60 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import comics from "../../data/comics";
+import Interiors from "../../data/comicsInterior";
+import Image from "next/image";
 
 export default function ComicsPage() {
   const router = useRouter();
   return (
-    <>
-      <div className="w-full lg:columns-3 columns-1 space-y-4">
-        {comics.map((book) => {
+    <div className="flex flex-col gap-4">
+      {/* ✅ Comics's books cover */}
+      <span className="w-full text-2xl font-[500] text-[var(--typography)] bg-redd-900">
+        Comics&apos;s Books Cover
+      </span>
+      <div className="w-full lg:columns-3 columns-1 space-y-4 md:pb-10 pb-2">
+        {[...comics.slice(3), ...comics.slice(0, 3)].map((book) => {
           if (!book) return null;
           return (
             <Link
               key={book.id}
-              href={book.destination}
+              href={book?.destination}
               className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
             >
-              <img
+              <Image
                 src={book.image}
                 alt={book.title}
+                width={600}
+                height={400}
                 className="object-cover rounded transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg"
               />
             </Link>
           );
         })}
       </div>
-    </>
+      {/* ✅ Interior illustrations section */}
+      <span className="w-full text-2xl font-[500] text-[var(--typography)] bg-redd-900">
+        Interior Comics Illustrations
+      </span>
+      <div className="w-full lg:columns-3 columns-1 space-y-4 border-t-1 border-[var(--border)] md:pt-10 pt-2">
+        {[...Interiors.slice(3), ...Interiors.slice(0, 3)].map((book) => {
+          if (!book) return null;
+          return (
+            <div
+              key={book.id}
+              className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
+            >
+              <Image
+                src={book.image}
+                alt={book.title}
+                width={600}
+                height={400}
+                className="object-cover rounded transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg"
+              />
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 }

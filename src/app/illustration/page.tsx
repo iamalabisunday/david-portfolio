@@ -1,6 +1,5 @@
 "use client";
 import illustration from "../../data/illustration";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
@@ -12,9 +11,8 @@ export default function IllustrationPage() {
         {[...illustration.slice(3), ...illustration.slice(0, 3)].map((book) => {
           if (!book) return null;
           return (
-            <Link
+            <div
               key={book.id}
-              href={book.destination || "#"}
               className="flex-col space-y-2 group block overflow-hidden rounded-lg cursor-pointer"
             >
               <Image
@@ -24,7 +22,7 @@ export default function IllustrationPage() {
                 height={400}
                 className="object-cover rounded transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg"
               />
-            </Link>
+            </div>
           );
         })}
       </div>

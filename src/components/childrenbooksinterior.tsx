@@ -68,6 +68,7 @@ export default function Publish({ id, books }: PublishProps) {
           <div className="text-[1.10rem] text-[var(--typography)] font-[400] leading-[1.85rem] flex flex-col gap-2">
             {currentBook.message}
             <div>{currentBook.paragraph}</div>
+            <div>{currentBook.Link}</div>
           </div>
         </div>
       </div>
