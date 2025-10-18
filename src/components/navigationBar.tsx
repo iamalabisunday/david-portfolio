@@ -29,67 +29,67 @@ export default function NavBar() {
 
       {/* Navigation section one */}
       <div className="w-full flex flex-col gap-2 text-[1.25rem] font-[550] mt-3">
-        <Link href="/" className={linkClasses("/")}>
+        <a href="/" className={linkClasses("/")}>
           Children Books
-        </Link>
-        <Link href="/illustration" className={linkClasses("/illustration")}>
+        </a>
+        <a href="/illustration" className={linkClasses("/illustration")}>
           Illustration
-        </Link>
-        <Link href="/comics" className={linkClasses("/comics")}>
+        </a>
+        <a href="/comics" className={linkClasses("/comics")}>
           Comics
-        </Link>
+        </a>
       </div>
 
       {/* Navigation section two */}
       <div className="flex flex-col gap-2 text-[1.25rem] font-[550]">
-        <Link href="/contact_Info" className={linkClasses("/contact_Info")}>
+        <a href="/contact_Info" className={linkClasses("/contact_Info")}>
           Contact And Info
-        </Link>
-        <Link href="/affiliate" className={linkClasses("/affiliate")}>
+        </a>
+        <a href="/affiliate" className={linkClasses("/affiliate")}>
           Affiliate
-        </Link>
-        <Link href="/blog" className={linkClasses("/blog")}>
+        </a>
+        <a href="/blog" className={linkClasses("/blog")}>
           Blog
-        </Link>
+        </a>
       </div>
 
       {/* Social media */}
       <div className="w-full flex justify-start items-center gap-2">
-        <Link
+        <a
           href="https://www.linkedin.com/in/david-okon-66926a154"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin className="navbarIcon" />
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://web.facebook.com/okon.davidedikan"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaSquareFacebook className="navbarIcon" />
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://www.instagram.com/davidokonart"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaSquareInstagram className="navbarIcon" />
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://x.com/avidartdesign"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaXTwitter className="navbarIcon" />
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://www.youtube.com/@davidokon"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaYoutube className="navbarIcon" />
-        </Link>
+        </a>
       </div>
     </div>
   );

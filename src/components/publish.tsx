@@ -1,6 +1,13 @@
 import { MdNavigateNext } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
 
+type PublishProps = {
+  image: string;
+  title: string;
+  message: string;
+  paragraph: string;
+};
+
 export default function Publish({
   image,
   title,

@@ -7,7 +7,7 @@ export default function BibleStoriesV2() {
       image={Comics[1].image}
       title={Comics[1].title}
       message={Comics[1].message}
-      paragraph={Comics[1].paragrapy}
+      paragraph={Comics[1].paragraph}
     />
   );
 }
