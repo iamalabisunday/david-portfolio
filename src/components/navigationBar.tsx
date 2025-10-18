@@ -29,28 +29,28 @@ export default function NavBar() {
 
       {/* Navigation section one */}
       <div className="w-full flex flex-col gap-2 text-[1.25rem] font-[550] mt-3">
-        <a href="/" className={linkClasses("/")}>
+        <Link href="/" className={linkClasses("/")}>
           Children Books
-        </a>
-        <a href="/illustration" className={linkClasses("/illustration")}>
+        </Link>
+        <Link href="/illustration" className={linkClasses("/illustration")}>
           Illustration
-        </a>
-        <a href="/comics" className={linkClasses("/comics")}>
+        </Link>
+        <Link href="/comics" className={linkClasses("/comics")}>
           Comics
-        </a>
+        </Link>
       </div>
 
       {/* Navigation section two */}
       <div className="flex flex-col gap-2 text-[1.25rem] font-[550]">
-        <a href="/contact_Info" className={linkClasses("/contact_Info")}>
+        <Link href="/contact_Info" className={linkClasses("/contact_Info")}>
           Contact And Info
-        </a>
-        <a href="/affiliate" className={linkClasses("/affiliate")}>
+        </Link>
+        <Link href="/affiliate" className={linkClasses("/affiliate")}>
           Affiliate
-        </a>
-        <a href="/blog" className={linkClasses("/blog")}>
+        </Link>
+        <Link href="/blog" className={linkClasses("/blog")}>
           Blog
-        </a>
+        </Link>
       </div>
 
       {/* Social media */}
